@@ -255,19 +255,3 @@ h1, h2, h3, h4, h5, h6 {
           padding:0;
       }
   }
-
-/*
-*Full Search Bar
-*
-*/
-.close-btn { position: relative; z-index: 9999;}
-        .search-area { position: absolute; display: none; content: ''; top:0; left:0;  background: #9C27B0; width:100%; height:100%;}
-        .form-btn { margin-top: 40%; font-family: 'Poppins', sans-serif; }
-        .form-btn input { height:60px; background: transparent; font-size: 28px; color: #fff; } 
-        .form-btn input:focus { background: transparent; outline: none; box-shadow: none; border-color:#ced4da; color: #fff;}
-        .brd-left-none { border-left: none !important;}
-        .form-btn .form-control { border-right:none !important;}
-        .border-bottom { border: none; border-bottom: solid 1px #ced4da; border-radius: 0px;}
-        .form-btn input::placeholder { color: #fff; font-weight: normal;}
-        .form-btn i { font-size: 30px;}
-
