@@ -11,9 +11,18 @@
 .blog-header-logo{
     font-family: "Playfair Display", Georgia, 'Times New Roman', Times, serif;
     font-size:30px;
+    padding-left:0;
+    padding-right:20px;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
 }
 .blog-header-logo:hover{
     text-decoration:none;
+}
+a{
+text-decoration:none;
 }
 h1, h2, h3, h4, h5, h6 {
     font-family: "Playfair Display", Georgia, "Times New Roman", serif;
@@ -239,7 +248,11 @@ h1, h2, h3, h4, h5, h6 {
   */
   .btn-gradient-info{
     background: linear-gradient(to left, #0097a7,#e0f7fa);
-  }
+    color:#fff;
+    }
+  .btn-gradient-info:hover{
+    color:#fff;
+    }
   /*Responsive*/
   @media (max-width:991px){
       span.post-read-more{
