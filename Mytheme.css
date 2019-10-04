@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+.bg-giridiwaadam{
+    background:#0097a7;
+}
+.navbar{
+    color:#fff;
+    font-family: "Poppins",sans-serif;
+}
+.navbar, .navbar-brand{
+    color:#fff;
+}
+a{
+    text-decoration:none
+}
+.navbar-light .navbar-toggler{
+    border:none;
+}
+.nav-link, .nav-item{
+    color:#fff;
+}
+
+.bg-dark{
+    background:#333;
+}
+.masonrygrid.row.listrecent {
+    margin-right: -10px;
+    margin-left: -10px;
+}
